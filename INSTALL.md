@@ -56,8 +56,8 @@ the volume levels seem to default back down to something pretty quiet.
 
 ###Other Software
 
-If you already know how to use liquidsoap to output a HTTP stream over ALSA
-then skip to the GPIO section.
+We'll be using liquidsoap to play a HTTP stream and sendemail as a simple command
+line email sender.
 
 * Copy all of the files in the scripts directory to your ~/scripts we'll use 
   these later.
