@@ -34,6 +34,7 @@ the same day which has meant some compromises in finish so this is effectively
 the prototype build.
 
 **Bill of Materials:** < £150
+
 **Reliability:** Internally this has been working for almost 2 years without
 any problems.  Externally its been running for approx 72 hours as of today
 (08/06/2015).
