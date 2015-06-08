@@ -1,0 +1,11 @@
+# Add the following to your crontab file in order to get everything working
+
+#On Reboot
+@reboot ~/scripts/create_ssh_tunnel.sh >> tunnel.log 2>&1
+@reboot ~/scripts/sendBootUpEmail.sh >> email.log 2>&1
+@reboot ~/scripts/setup_gpio.sh >> setup_gpio.log 2>&1
+@reboot ~/scripts/liquidsoap_watchdog.sh >> liquidsoap_watchdog.log 2>&1
+
+#Every 60 seconds
+*/1 * * * * ~/scripts/liquidsoap_watchdog.sh >> liquidsoap_watchdog.log 2>&1
+*/1 * * * * ~/scripts/create_ssh_tunnel.sh >> tunnel.log 2>&1
