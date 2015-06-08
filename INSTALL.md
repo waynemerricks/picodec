@@ -12,7 +12,7 @@ can easily mount it to some backing board).
 Be sure to install/enable ssh (pretty sure this is an install option however 
 "sudo apt-get install openssh-server" works just as well).
 
-*Change your Pi user name and password*
+**Change your Pi user name and password**
 
 As far as I know newer builds of Raspbian let you change usernames etc as part
 of the install.  Mine was old enough that I had to do this manually.
