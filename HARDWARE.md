@@ -65,11 +65,59 @@ about fit in a 1U case if you have nothing else.
   22mm for the XLRs, 18mm for the RJ45 port)
 * A Jigsaw with a metal blade (For the IEC Connector)
 * Some random electrical wire (1.5mm dia minimum for the Mains power in).
+* Some random audio wire (thin electrical will work but most of it is not
+  stranded which makes it more difficult to bend.  You can use network cabling
+  it works fine but is quite thin, consider doubling up the wires)
 * Some electrical insulation tape (different colours help to remember which ones
   might jolt you)
 * A length of network cable < 100mm (with an RJ45 connector on one end)
+* A soldering iron
+* A Stanley knife (for cutting the IDE cable)
+* Safety goggles (if you like being able to see)
+* Ear plugs (if you like being able to hear)
 
 
 ###Putting it all together
 
-TODO
+**Back Panel:**
+On the back panel of the 1U case you will need 3 round holes (From left to right
+as you look at it from the back):
+
+Left Hand Side:
+* 2 x 22mm for the XLRs (L & R Output.. only need 1 for mono)
+* 4 x 4mm holes for the XLR mounting screws
+
+Somewhere roughly middle:
+* 1 x 18mm hole for the Network port
+* 2 x 4mm holes for the mounting screws
+
+Right Hand Side:
+* IEC Connector rectangle (ish)
+* 2 x 4mm holes for the mounting screws
+
+**Note:** I used a cone/christmas tree bit for these.  Safety goggles help a lot
+when you have tiny fragments of metal flying around.  Ear plugs also help reduce
+the annoying metal on metal screeching of drills.
+
+I had to jigsaw out the IEC connector after first drilling some holes for the 
+blade to fit.
+
+A file helps a lot to remove the left over bits of metal all around the holes 
+but can scratch your paintwork to pieces.
+
+**Front Panel:**
+On the front, if you don't have LED holders 3 x 5mm holes roughly in the middle
+work fine.  If not most holders are usually approx 10mm in diameter.  Get
+holders, they cover a multitude of ugly drilling!
+
+###After cutting all the holes
+Mount up all your components in the holes.  I also ringed them with contact
+adhesive to help cover up random bits of metal I'd filed away and as a just in
+case way of holding them to the case.
+
+Orient the LEDs with legs left to right rather than vertically as it gives you
+easier access when soldering later.
+
+Leave the glue to dry fully before pulling on them and breaking things.
+
+###
