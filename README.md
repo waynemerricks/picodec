@@ -44,3 +44,5 @@ any problems.  Externally its been running for approx 72 hours as of today
 
 Check out INSTALL for a quick run through, more images are available in the 
 images directory.
+
+![alt tag](https://raw.github.com/waynemerricks/picodec/master/images/IMG_20150605_114416.jpg)
