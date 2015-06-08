@@ -12,7 +12,7 @@ can easily mount it to some backing board).
 Be sure to install/enable ssh (pretty sure this is an install option however 
 "sudo apt-get install openssh-server" works just as well).
 
-*Change your Pi user name and password*
+**Change your Pi user name and password**
 
 As far as I know newer builds of Raspbian let you change usernames etc as part
 of the install.  Mine was old enough that I had to do this manually.
@@ -56,8 +56,8 @@ the volume levels seem to default back down to something pretty quiet.
 
 ###Other Software
 
-If you already know how to use liquidsoap to output a HTTP stream over ALSA
-then skip to the GPIO section.
+We'll be using liquidsoap to play a HTTP stream and sendemail as a simple command
+line email sender.
 
 * Copy all of the files in the scripts directory to your ~/scripts we'll use 
   these later.
