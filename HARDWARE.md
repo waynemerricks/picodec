@@ -120,4 +120,14 @@ easier access when soldering later.
 
 Leave the glue to dry fully before pulling on them and breaking things.
 
-###
+###Laying out the components
+
+![alt tag](https://raw.github.com/waynemerricks/picodec/master/images/IMG_20150605_110715.jpg)
+
+As you can see the layout gets a bit cramped on the "finished" internals.  I 
+used standard connectors wherever possible to make it easy to replace bits even
+though it would be cleaner to cut XLR ports and wire directly to the back panel.
+
+Block diagram of the layout:
+
+![alt tag](https://raw.github.com/waynemerricks/picodec/master/images/Parts_Layout.png)
