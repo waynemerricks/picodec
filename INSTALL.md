@@ -166,7 +166,7 @@ crontab -e
 */1 * * * * ~/scripts/create_ssh_tunnel.sh >> tunnel.log 2>&1
 ```
 
-**Adding the logs to logrotate:
+**Adding the logs to logrotate:**
 
 This is relatively easy you just need to add a new log definition for logrotate.
 
