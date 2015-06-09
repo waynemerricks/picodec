@@ -39,6 +39,29 @@ the prototype build.
 any problems.  Externally its been running for approx 72 hours as of today
 (08/06/2015).
 
+**Features:**
+
+So this repo walks you through building a 1U Rack mount system using a Pi and
+easily available hardware (and open source software) in order to get the
+following:
+* Remote re-streaming anywhere in the world with an Internet connection
+* Local file failover for when an Internet connection is not available
+* Silence Detection failover (as above)
+* Balanced Audio Out
+* Standard IEC and XLR connectors all round
+* Status LED indicators (Orange Power, Green OK, Red Problem)
+* Email Notifications
+* Reverse SSH connections for remote administration
+
+**Future plans**
+
+* Amend liquidsoap to have structured fallback audio instead of random mp3s
+* It would be nice to have a web interface for local admins
+* A local icecast server would also be helpful for the remote
+* Potential for an LED display to show you the IP the device has picked up
+* DVI and USB Connectors on the panel for local admins
+* Get plans for the panel holes drawn up so that any good company can precut
+  the panels for you
 
 **Further Info**
 
