@@ -147,6 +147,8 @@ You'll need to edit each of the following scripts for your particular settings:
 * sendAudioStarted - All email settings and message tweaking (optional)
 * sendAudioStopped - As above
 * sendBootUpEmail - As above
+* liquidsoap.liq - Change HTTPSTREAM to your stream URL and also make sure the
+  DIRECTORY listed for fallback is readable by your picodec user.
 
 The other scripts don't need any alteration unless you wish to change log 
 messages.
