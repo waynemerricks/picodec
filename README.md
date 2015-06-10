@@ -57,7 +57,8 @@ following:
 
 * Amend liquidsoap to have structured fallback audio instead of random mp3s
 * It would be nice to have a web interface for local admins
-* A local icecast server would also be helpful for the remote
+* A local icecast server would also be helpful for the remote (not possible
+  on the Pi as the CPU chokes.  Need to test on a Pi 2)
 * Potential for an LED display to show you the IP the device has picked up
 * DVI and USB Connectors on the panel for local admins
 * Get plans for the panel holes drawn up so that any good company can precut
