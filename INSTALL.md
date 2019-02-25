@@ -1,9 +1,9 @@
-#INSTALL INFO
+# INSTALL INFO
 
 This file only explains the software setup, for parts lists and hardware info
 check out HARDWARE instead.
 
-###Pi Specific Setup
+### Pi Specific Setup
 
 Install Raspbian onto your Pi (I was using a model B, the revision that came
 with mounting holes however these aren't required you just need a case so you 
@@ -54,7 +54,7 @@ Make sure you quit out of alsamixer and reboot normally at least once otherwise
 the volume levels seem to default back down to something pretty quiet.
 
 
-###Other Software
+### Other Software
 
 We'll be using liquidsoap to play a HTTP stream and sendemail as a simple command
 line email sender.
@@ -74,7 +74,7 @@ Feel free to mess with your Icecast and liquidsoap settings to reduce this.
 Buffering to this length of time was not an issue for this project.
 
 
-###GPIO Software
+### GPIO Software
 
 You can use the Pi's built in GPIO libraries with Python however this requires
 root access and also means you have Python scripts everywhere.  I found it much
@@ -137,7 +137,7 @@ ssh -l pi_user -p 50000 localhost
 ```
 You should be on the Pi from your public server.  If not check your settings.
 
-###Using all the scripts to make this run
+### Using all the scripts to make this run
 
 If you haven't already, copy everything in the scripts directory to your
 ~/scripts
